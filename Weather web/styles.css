@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url(https://img.freepik.com/free-vector/realistic-weather-widget_1284-4092.jpg?size=626&ext=jpg&ga=GA1.2.557957230.1683991987&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  }
+  
+  .weather-app {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-info {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .location {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .temperature {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ff5722;
+    margin-bottom: 10px;
+  }
+  
+  .conditions {
+    font-size: 18px;
+  }
+  
